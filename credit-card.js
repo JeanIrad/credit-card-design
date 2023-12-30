@@ -6,5 +6,5 @@ cardInputs.addEventListener("input", function () {
   inputValue = inputValue.replace(/(\d{4})(?=\d)/g, "$1 - ");
   this.value = inputValue;
 
-  // return;
+ 
 });
